@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">apk_uts_penjualanbuket</string>
+    <string name="app_name">apk_penjualanbuket</string>
+    <string name="default_web_client_id">1051663001383-o8b7ek3453ltg74hfvqjjclalta1pbrd.apps.googleusercontent.com</string>
 </resources>

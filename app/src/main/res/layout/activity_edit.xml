@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Pemesan" />
+
+    <EditText
+        android:id="@+id/editProduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Produk" />
+
+    <EditText
+        android:id="@+id/editJumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah"
+        android:inputType="number" />
+</LinearLayout>

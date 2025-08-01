@@ -26,7 +26,7 @@
         android:id="@+id/btnPesan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pesan via WhatsApp"
+        android:text="Pesan"
         android:backgroundTint="#e9952e"
         android:textColor="#fff"
         android:layout_marginTop="8dp" />

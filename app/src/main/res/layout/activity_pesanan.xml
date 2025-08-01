@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Gambar -->
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:text="PESANAN"
+        android:textStyle="bold" />
+
+    <!-- Isi Konten -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30pt">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Pemesan"
+                android:padding="10dp"
+                android:background="@drawable/edittext_bg" />
+
+            <EditText
+                android:id="@+id/etProduk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Produk"
+                android:padding="10dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/edittext_bg" />
+
+            <EditText
+                android:id="@+id/etJumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jumlah"
+                android:padding="10dp"
+                android:inputType="number"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/edittext_bg" />
+
+            <Button
+                android:id="@+id/btnSimpan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpan Pesanan"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="#e9952e"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/btnWhatsapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kirim ke WhatsApp"
+                android:enabled="false"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#25D366"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

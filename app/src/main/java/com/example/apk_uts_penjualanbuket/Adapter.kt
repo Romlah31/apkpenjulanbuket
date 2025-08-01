@@ -26,9 +26,8 @@ class Adapter(
         tvHarga.text = produk.harga
 
         btnPesan.setOnClickListener {
-            context.bukaWhatsapp(produk.pesan)
+            context.bukaDetail(produk.pesan)
         }
-
         return view
     }
 }
