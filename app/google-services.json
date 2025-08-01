@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1051663001383",
+    "project_id": "penjualanbuket",
+    "storage_bucket": "penjualanbuket.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051663001383:android:201037c1252eeb0bef2b02",
+        "android_client_info": {
+          "package_name": "com.example.apk_uts_penjualanbuket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051663001383-daph0m3c13gsi3c43i6203r7f4qh3qcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apk_uts_penjualanbuket",
+            "certificate_hash": "ec2751c7daddb183e1728c7982e9cce044c2d7c0"
+          }
+        },
+        {
+          "client_id": "1051663001383-o8b7ek3453ltg74hfvqjjclalta1pbrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArud9knvA5DSw2HU-8g3ZIyWG5EOjFijo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051663001383-o8b7ek3453ltg74hfvqjjclalta1pbrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
